@@ -1,0 +1,27 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Feature",
+  "id": "keras_pt_convlstm",
+  "properties": {
+    "title": "ConvLSTM rainfall nowcasting model - Keras (PyTorch backend)",
+    "description": "Trained ConvLSTM model using Keras 3 with PyTorch backend. Developed as part of the master's thesis on model interoperability. Architecture based on Demetrakopoulos et al. (2023).",
+    "framework": "Keras (PyTorch backend)",
+    "framework_version": "PyTorch 2.7",
+    "input_shape": [18, 344, 315, 1],
+    "output_shape": [18, 344, 315, 1],
+    "training_data": "Radar precipitation dataset from Demetrakopoulos 2023, via KNMI API (https://github.com/petrosDemetrakopoulos/LSTM-radar-precipitation-forecast)",
+    "related_work": "Demetrakopoulos (2023) https://arxiv.org/html/2312.01197v1",
+    "license": "MIT",
+    "date": "2025-08-05"
+  },
+  "assets": {
+    "model": {
+      "href": "./model_keras3_tf.keras",
+      "type": "application/x-hdf5"
+    },
+    "metrics": {
+      "href": "./metrics.json",
+      "type": "application/json"
+    }
+  }
+}
