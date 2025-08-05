@@ -9,8 +9,8 @@
     "framework_version": "PyTorch 2.7",
     "input_shape": [18, 344, 315, 1],
     "output_shape": [18, 344, 315, 1],
-    "training_data": "Radar precipitation dataset from Demetrakopoulos 2023, via KNMI API",
-    "related_work": "https://github.com/petrosDemetrakopoulos/LSTM-radar-precipitation-forecast",
+    "training_data": "Radar precipitation dataset from Demetrakopoulos 2023, via KNMI API (https://github.com/petrosDemetrakopoulos/LSTM-radar-precipitation-forecast)",
+    "related_work": "Demetrakopoulos et al. (2023) https://arxiv.org/html/2312.01197v1",
     "license": "MIT",
     "date": "2025-06-06"
   },
