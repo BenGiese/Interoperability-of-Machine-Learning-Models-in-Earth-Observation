@@ -1,0 +1,1 @@
+onnx-tf convert -i model_pytorch.onnx -o saved_model_pt
