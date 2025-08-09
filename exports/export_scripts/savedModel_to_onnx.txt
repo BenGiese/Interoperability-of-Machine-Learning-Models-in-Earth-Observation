@@ -1,0 +1,4 @@
+python -m tf2onnx.convert \
+    --saved-model /path/to/saved_model_directory \
+    --output /path/to/output_model.onnx \
+    --opset 17
