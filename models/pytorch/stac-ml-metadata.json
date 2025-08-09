@@ -1,0 +1,27 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Feature",
+  "id": "native_pytorch_convlstm",
+  "properties": {
+    "title": "ConvLSTM rainfall nowcasting model - Native PyTorch",
+    "description": "Manually implemented ConvLSTM model in PyTorch for rainfall nowcasting. Used to evaluate interoperability and model reproducibility. Based on architecture of Demetrakopoulos (2023).",
+    "framework": "PyTorch (native)",
+    "framework_version": "PyTorch 2.7",
+    "input_shape": [18, 344, 315, 1],
+    "output_shape": [18, 344, 315, 1],
+    "training_data": "Radar precipitation dataset from Demetrakopoulos 2023, via KNMI API (https://github.com/petrosDemetrakopoulos/LSTM-radar-precipitation-forecast)",
+    "related_work": "Demetrakopoulos (2023) https://arxiv.org/html/2312.01197v1",
+    "license": "MIT",
+    "date": "2025-08-05"
+  },
+  "assets": {
+    "model": {
+      "href": "./model_pytorch.pth",
+      "type": "application/x-pytorch"
+    },
+    "metrics": {
+      "href": "./metrics.json",
+      "type": "application/json"
+    }
+  }
+}
