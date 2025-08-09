@@ -48,7 +48,7 @@ references/        # Links to external datasets and publications
 The training and validation data used in this thesis are **not included here**.
 
 Data access and preprocessing instructions are available in:
-```references/DATASETS.md```
+[references/DATASETS.md](references/DATASETS.md)
 
 
 The original dataset and code used as a basis for this work come from:  
