@@ -9,6 +9,7 @@
   - `keras_pt` model
   - `pytorch` native model
 - Conversion tools:  
+  - `model.export()` for keras models  
   - `tf2onnx` for TensorFlow models  
   - `torch.onnx.export` for PyTorch models  
 
