@@ -1,0 +1,1 @@
+python -c "import onnx; from onnx2torch import convert; model = convert(onnx.load('/path/to/model.onnx')); import torch; torch.save(model, '/path/to/model.pt')"
