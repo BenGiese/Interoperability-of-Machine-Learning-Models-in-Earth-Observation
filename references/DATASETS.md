@@ -27,20 +27,6 @@ This project uses radar-based rainfall nowcasting data originally prepared by **
   - First 18 frames: **input sequence**  
   - Last 18 frames: **forecast target**
 
----
-
-## Data in this Repository
-
-The raw and processed training/validation data are **not included** in this repository due to size limitations.
-
-A dedicated data repository containing:
-- training sequences
-- validation sequences
-- preprocessing scripts
-
-is available here:
-
-**➡ [External Data Repository – Link to be inserted]**
 
 ---
 
