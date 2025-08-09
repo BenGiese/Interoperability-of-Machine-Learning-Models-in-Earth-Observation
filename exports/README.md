@@ -31,9 +31,12 @@
 ## Export Scripts (`export_scripts/`)
 
 Scripts used for conversions:
-- `keras_to_onnx.py` – Converts Keras or PyTorch models to ONNX (only works for pt backend)
-- `export_to_tf.py` – Converts ONNX to TensorFlow SavedModel
-- `export_to_pt.py` – Converts ONNX to PyTorch
+- `keras_to_onnx.py` – Converts Keras models to ONNX (only works for pt backend)
+- `keras_to_tfSavedModel.py` – converts keras file into tensorflow saved model
+- `savedModel_to_onnx.txt` – comand to convert a tensorflow saved model into an ONNX model
+- `onnx_to_pt.txt` – Command for converting an ONNX model into .pt model
+- `pt_to_onnx.py` – Converts a pytorch model to onnx
+- `onnx_to_tfSavedModel.txt` – Converts ONNX to TensorFlow SavedModel
 
 ---
 
